@@ -1,0 +1,155 @@
+/* @supports not (font-variation-settings: normal) { */
+/* @font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+} */
+@supports not (font-variation-settings: normal) {
+
+    /* I just want the weight 300 from this font */
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: url('/fonts/JosefinSans/static/JosefinSans-Light.ttf') format('ttf');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: url('/fonts/JosefinSans/static/JosefinSans-LightItalic.ttf') format('ttf');
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    /* I just want the weight 400 from this font */
+    @font-face {
+        font-family: 'Alata';
+        src: url(/fonts/Alata/Alata-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* @font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-ThinItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/JosefinSans/static/JosefinSans-BoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: Roboto;
+} */
+
+/* } */
+
+/* @supports (font-variation-settings: normal) {
+    @font-face {
+        font-family: 'Alata';
+        src: url('/fonts/Alata/Alata-Regular.ttf') format('ttf');
+    }
+} */
+
+
+/*  make the variable fonts */
+@supports (font-variation-settings: normal) {
+
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: url('/fonts/JosefinSans/variable/JosefinSans-VariableFont_wght.ttf') format('ttf');
+        font-weight: 100 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: url('/fonts/JosefinSans/variable/JosefinSans-Italic-VariableFont_wght.ttf') format('ttf');
+        font-weight: 100 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Alata';
+        src: url('/fonts/Alata/variable/Alata-VariableFont_wght.ttf') format('ttf');
+        font-weight: 100 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Alata';
+        src: url('/fonts/Alata/variable/Alata-Italic-VariableFont_wght.ttf') format('ttf');
+        font-weight: 100 700;
+        font-style: italic;
+    }
+}

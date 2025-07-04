@@ -1,0 +1,206 @@
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Black: hsl(0, 0%, 0%);
+    --color-Dark-Gray: hsl(0, 0%, 55%);
+    --color-Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+/*      This page does not contain some detailes like font size, line height, margins & element sizes
+    cause I do not have the figma file and I am building it from an images */
+
+body {
+    font-size: 18px;
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    width: 80%;
+    margin: auto 10%;
+    padding-top: 50px;
+}
+
+header .logo {
+    float: left;
+    z-index: 9;
+    position: relative;
+}
+
+header .links {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: first baseline;
+    display: none;
+}
+
+header .links a {
+    margin: 8px 10%;
+    color: var(--color-White);
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+}
+
+header .close,
+header .hamburger {
+    float: right;
+    padding: 6px 0px;
+}
+
+header .close {
+    z-index: 9;
+    position: relative;
+}
+
+.hero {
+    float: left;
+    width: 100%;
+    height: 650px;
+    color: var(--color-White);
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero h1 {
+    border: 2px solid var(--color-White);
+    width: auto;
+    padding: 25px;
+    margin: 22% 5%;
+    font-size: 35px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+main {
+    width: 90%;
+    margin: 0px 5%;
+    overflow-x: hidden;
+
+    >* {
+        margin: 90px 0px;
+    }
+}
+
+.interactive-img img {
+    width: 100%;
+}
+
+.interactive .bio {
+    text-align: center;
+}
+
+.interactive .bio p {
+    color: var(--color-Dark-Gray);
+    line-height: 1.5;
+}
+
+.interactive .bio h1,
+.creations h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.creations {
+    display: grid;
+    justify-items: center;
+}
+
+.creations h1 {
+    margin: 26px 0px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 26px;
+}
+
+.project {
+    position: relative;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project p {
+    position: absolute;
+    bottom: 0;
+    margin: 10%;
+    width: 30%;
+    color: var(--color-White);
+    font-size: 18px;
+    text-align: end left;
+    text-transform: uppercase;
+}
+
+.creations a.btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid var(--color-Black);
+    margin: 30px 0 0;
+    color: var(--color-Black);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    padding: 40px 10%;
+
+    * {
+        text-align: center;
+    }
+}
+
+.left-f .f-logo {
+    height: 26px;
+}
+
+.left-f .link-list {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.left-f .link-list a {
+    color: var(--color-White);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.right-f .socials {
+    height: 32px;
+
+    *+* {
+        margin-left: 15px;
+    }
+}
+
+.right-f .socials a {
+    height: 26px;
+    text-decoration: none;
+}
+
+.right-f p {
+    color: var(--color-Dark-Gray);
+    font-size: 16px;
+}
+
+/* JS actions */
+
+.open-menu {
+    display: flex !important;
+    background-color: var(--color-Black);
+}
+
+header .close.hide,
+header .hamburger.hide {
+    display: none;
+}
