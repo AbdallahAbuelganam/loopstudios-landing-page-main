@@ -30,8 +30,8 @@ Users should be able to:
 ![Active States](./design/active-states.jpg)
 
 ## Links
-- Solution URL: <!-- Not uploaded yet -->
-- Live Site URL: <!-- Not uploaded yet -->
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/-semantic-html5-markup-css-custom-properties-grid-flexbox-javascript-VL731MxLZe)
+- Live Site URL: [Github pages](https://abdallahabuelganam.github.io/loopstudios-landing-page-main/)
 
 ## My process
 
@@ -150,5 +150,5 @@ Users should be able to:
 
 ## Author
 - Name: Abdallah AbuElganam
-- Frontend Mentor: [@AbdallahAbuelganam](https://www.frontendmentor.io/profile/AbdallahAbuelganam)
-- <!-- You can add another social or portfolio link here if you want -->
+- Frontend Mentor: [@AbdallahAbuelganam](www.frontendmentor.io/profile/AbdallahAbuelganam)
+- Instagram: [@abdallah_abuelghanam](www.instagram.com)
